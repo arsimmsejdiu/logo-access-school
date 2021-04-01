@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.container {
+    width: 1480px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.smaller {
+    font-size: 140px;
+    padding-right: 20px;
+    color: red;
+    font-weight: 900;
+}
+
+.back {
+    background-color: red;
+    color: white;
+    margin-left: -20px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 140px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 1080px;
+    margin-top: -88px;
+    height: 2px;
+    background-color: black;
+}
+
+p {
+    font-size: 80px;
+    letter-spacing: 8rem;
+    margin-top: -7px;
+    margin-left: 250px;
+    color: #737373;
+    text-transform: uppercase;
+}
